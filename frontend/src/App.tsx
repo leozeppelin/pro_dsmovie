@@ -1,10 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
+import Navbar from "./components/navbar";
 
-function App() {
-  return (
-<h1>pagina principal</h1>
-  );
+function App(){
+return(
+  <Navbar />
+);
+
 }
 
 export default App;
