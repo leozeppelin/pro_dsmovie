@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+:root {
+    --color-primary: #4D41C0;
+    --bg-gray: #e8e8e8;
+    --bs-white: #fff;
+    --text-gray: #4a4a4a;
+    --text-light-gray: #717171;
+    --star-yellow:  #FFBB3A;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover {
+    text-align: right;
+    color: unset;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+.dsmovie-contato-container {
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contato-container img {
+    margin-right: 10px;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--bs-white);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+html, body {
+    background-color: var(--text-light-gray);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dsmovie-card {
+    width: 100%;
+}
+
+.dsmovie-card img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+.dsmovie-card-description {
+    background-color: var(--bs-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 20px 0;
+    border-radius: 0 0 8px 8px;
+    justify-content: space-between;
+    height: 190px;
+}
+
+.dsmovie-card-description h3 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.dsmovie-btn, .dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--bs-white);
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 4px;
+}
+
+#dsmovie-card-list {
+    padding: 0px 10px;
+}
+
+.dsmovie-form {
+    width: 100%;
+}
+
+.dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+}
+
+.dsmovie-form-group {
+margin-bottom: 20px;
+}
+
+.dsmovie-form-group label {
+    font-weight: 400px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.dsmovie-form-description {
+background-color: var(--bs-white);
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description-bottom h4 {
+    color: var(--star-yellow);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description-bottom img{
+    width: 22px;
+
+}
+
+.dsmovie-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+.dsmovie-form-description h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-btn-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100px;
+justify-content: space-between;    
+}   
+
+.dsmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dsmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--bs-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+.dsmovie-pagination-box button:disabled {
+    border: var(--text-gray) 1px solid;
+}
+
+.dsmovie-flip-horizontal {
+    transform: rotate(180deg);
+}
+
+.dsmovie-pagination-box button img {
+    filter: brightness(0%) saturate(100%) invert(22%) sepia(55%) saturate(1858%) hue-rotate(225deg) brightness(80%) contrast(99%);
+}
+
+.dsmovie-pagination-box button:disabled img {
+    filter: unset;
+}
+
